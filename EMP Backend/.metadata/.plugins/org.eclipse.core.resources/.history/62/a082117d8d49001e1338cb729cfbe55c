@@ -1,0 +1,14 @@
+package com.vrushali.emp.service;
+
+import java.util.List;
+
+import payload.empDto;
+
+public interface EmpService {
+
+	empDto createEmp(empDto edto);
+	
+	List<empDto> getAllEmp();
+	
+	empDto getEmpById(long id);
+}

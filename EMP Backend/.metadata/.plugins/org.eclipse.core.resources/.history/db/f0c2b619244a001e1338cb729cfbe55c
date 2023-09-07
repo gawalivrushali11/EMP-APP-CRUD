@@ -1,0 +1,5 @@
+package com.vrushali.emp.exception;
+
+public class GlobalExceptionHandler {
+
+}

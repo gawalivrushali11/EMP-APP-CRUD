@@ -1,0 +1,38 @@
+package payload;
+
+import java.util.Date;
+
+public class ErrorDetails {
+	private Date timestamp;
+	private String msg;
+	private String details;
+	private int errorcode;
+	
+	public ErrorDetails(Date timestamp, String msg, String details,int errorcode ) {
+		super();
+		this.timestamp = timestamp;
+		this.msg = msg;
+		this.details = details;
+		this.errorcode=errorcode;
+	}
+
+	public Date getTimestamp() {
+		return timestamp;
+	}
+
+	public String getMsg() {
+		return msg;
+	}
+
+	public String getDetails() {
+		return details;
+	}
+
+	public int getErrorcode() {
+		return errorcode;
+	}
+
+	
+
+	
+}

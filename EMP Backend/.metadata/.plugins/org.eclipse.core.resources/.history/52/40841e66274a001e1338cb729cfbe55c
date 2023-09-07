@@ -1,0 +1,78 @@
+package payload;
+
+public class empDto {
+	
+	private long empId;
+	
+	@NotEmpty
+	private String firstName;
+	private String lastName;
+	private String email;
+	private long phone;
+	private String address;
+	private long salary;
+	public long getEmpId() {
+		return empId;
+	}
+	public void setEmpId(long empId) {
+		this.empId = empId;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public long getPhone() {
+		return phone;
+	}
+	public void setPhone(long phone) {
+		this.phone = phone;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public long getSalary() {
+		return salary;
+	}
+	public void setSalary(long salary) {
+		this.salary = salary;
+	}
+	public empDto(int empId, String firstName, String lastName, String email, long phone, String address, long salary) {
+		super();
+		this.empId = empId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.phone = phone;
+		this.address = address;
+		this.salary = salary;
+	}
+	@Override
+	public String toString() {
+		return "empDto [empId=" + empId + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
+				+ ", phone=" + phone + ", address=" + address + ", salary=" + salary + "]";
+	}
+	public empDto() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

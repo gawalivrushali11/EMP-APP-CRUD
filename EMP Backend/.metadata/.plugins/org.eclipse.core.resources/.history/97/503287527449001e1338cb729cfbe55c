@@ -1,0 +1,6 @@
+package com.vrushali.emp.service;
+
+public interface EmpService {
+
+	
+}

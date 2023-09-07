@@ -1,0 +1,29 @@
+.form-group{
+    text-align: left;
+    margin-top: 2%;
+}
+.submit{
+    margin-top: 3%;
+}
+.row{
+    margin-top: 3%;
+}
+
+.container{
+    width:450%;
+
+}
+.table{
+    width: 250%;
+}
+.row{
+    width: 110%;
+}
+.card
+{
+    width:70rem;
+    padding-left:5%;
+}
+.card-body{
+    width:40%;
+}

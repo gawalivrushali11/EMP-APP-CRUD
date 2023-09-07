@@ -1,0 +1,23 @@
+package com.vrushali.emp.service;
+
+import java.util.List;
+
+import com.vrushali.emp.entity.empinfo;
+
+import payload.empDto;
+
+public interface EmpService {
+
+	empDto createEmp(empDto edto);
+	
+	List<empDto> getAllEmp();
+	
+	empDto getEmpById(long id);
+	
+	empDto getEmpByFirstname(String firstname);
+	
+	empDto updateEmp(empDto empdto,long id);
+	List<empDto> findByFirstName(String firstname);
+	
+	void deleteEmpById(long id);
+}

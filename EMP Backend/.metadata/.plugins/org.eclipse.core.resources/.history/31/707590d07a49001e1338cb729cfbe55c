@@ -1,0 +1,8 @@
+package com.vrushali.emp.service;
+
+import payload.empDto;
+
+public interface EmpService {
+
+	empDto createEmp(empDto edto);
+}

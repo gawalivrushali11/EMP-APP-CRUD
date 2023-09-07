@@ -1,0 +1,11 @@
+package com.vrushali.emp.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.vrushali.emp.entity.empinfo;
+
+public interface EmpRepo extends JpaRepository<empinfo, Long>{
+	
+	List<empinfo> findByfirstName(String firstname);
+}
